@@ -58,33 +58,83 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>	
 
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src='images/UltraVSR.png' style="width: 160px; height: 160px;">
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2505.19958">
+                  <span class="papertitle">UltraVSR: Achieving Ultra-Realistic Video Super-Resolution with Efficient One-Step Diffusion Space</span>
+                </a>
+                <br>
+                <strong> Yong Liu </strong>, Jinshan Pan, Yinchuan Li, Qingji Dong, Chao Zhu, Yu Guo, Fei Wang
+                <br>
+                <em>ACMMM</em>, 2025
+                <br>
+                <a href="">paper</a>
+                /
+                <a href="https://arxiv.org/abs/2505.19958">arXiv</a>
+                /
+                <a href="https://github.com/yongliuy/yongliuy.github.io/blob/main/data/YongLiuACMMM2025.bib">bibtex</a>
+                /
+                <a href="">poster</a>
+                /
+                <a href="">code</a> 
+                <p></p>
+                <p>We propose UltraVSR, a one-step diffusion-based framework for ultra-realistic and temporally coherent video super-resolution. It leverages a degradation-aware restoration schedule (DRS) for fast reconstruction, a recurrent temporal shift (RTS) module for efficient temporal modeling without explicit temporal layers, 
+                  spatio-temporal joint distillation (SJD) to enhance temporal coherence while preserving fine details, and a temporally asynchronous inference (TAI) strategy to model long-range dependencies under limited memory. 
+                </p>
+              </td>
+            </tr>
 
             <tr>
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <img src='images/DITN.png' style="width: 160px; height: 160px;">
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://dl.acm.org/doi/10.1145/3581783.3612128">
-                  <span class="papertitle">Unfolding Once is Enough: A Deployment-Friendly Transformer Unit for Super-Resolution</span>
+                <a href="https://arxiv.org/abs/2405.17158">
+                  <span class="papertitle">PatchScaler: An Efficient Patch-Independent Diffusion Model for Image Super-Resolution</span>
+                </a>
+                <br>
+                <strong> Yong Liu </strong>, Hang Dong, Jinshan Pan, Qingji Dong, Kai Chen, Rongxiang Zhang, Lean Fu, Fei Wang.
+                <br>
+                <em>ICCV</em>, 2025
+                <br>
+                <a href="">paper</a>
+                /
+                <a href="https://arxiv.org/abs/2405.17158">arXiv</a>
+                /
+                <a href="https://github.com/yongliuy/yongliuy.github.io/blob/main/data/YongLiuICCV2025.bib">bibtex</a>
+                /
+                <a href="">poster</a>
+                /
+                <a href="https://github.com/yongliuy/PatchScaler">code</a> 
+                <p></p>
+                <p>We propose PatchScaler, an efficient patch-independent diffusion pipeline for single image super-resolution. PatchScaler introduces a Patch-adaptive Group Sampling (PGS) strategy that groups feature patches by quantifying their reconstruction difficulty and establishes shortcut paths with different sampling configurations for each group. 
+                  In addition, we propose a texture prompt that provides rich texture conditional information to the diffusion model. 
+                </p>
+              </td>
+            </tr>
+            
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src='images/RSDiffSR.png' style="width: 160px; height: 160px;">
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://www.mdpi.com/2072-4292/17/8/1348">
+                  <span class="papertitle">Taming a Diffusion Model to Revitalize Remote Sensing Image Super-Resolution</span>
                 </a>
                 <br>
                 <strong> Yong Liu </strong>, Hang Dong, Boyang Liang, Songwei Liu, Qingji Dong, Kai Chen, Fangmin Chen, Lean Fu, Fei Wang
                 <br>
                 <em>ACMMM</em>, 2023
                 <br>
-                <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3612128">paper</a>
+                <a href="https://www.mdpi.com/2072-4292/17/8/1348">paper</a>
                 /
-                <a href="https://arxiv.org/abs/2308.02794">arXiv</a>
-                /
-                <a href="https://github.com/yongliuy/yongliuy.github.io/blob/main/data/YongLiuACMMM2023.bib">bibtex</a>
-                /
-                <a href="https://github.com/yongliuy/DITN/blob/main/assets/poster.png">poster</a>
-                /
-                <a href="https://github.com/yongliuy/DITN/">code</a> 
-                <a href="https://github.com/yongliuy/DITN/"><img alt="gitHub stars" src="https://img.shields.io/github/stars/yongliuy/DITN?style=social"></a>
+                <a href="https://github.com/yongliuy/yongliuy.github.io/blob/main/data/YongLiuRS2025.bib">bibtex</a>
                 <p></p>
-                <p>We propose a deployment-friendly transformer unit namely UFONE (i.e., UnFolding ONce is Enough) and a Deployment-friendly Inner-patch Transformer Network (DITN) for the SISR task, which can achieve favorable performance with low latency and memory usage on both training and deployment platforms. 
-                    Furthermore, to further boost the deployment efficiency, we provide an efficient substitution for layer normalization and propose a fusion optimization strategy for specific operators. 
+                <p>We introduce RSDiffSR, a conditional diffusion-based framework for remote sensing image super-resolution. It enhances visual quality using a large diffusion model as a generative prior, 
+                  bridges domain gaps via low-rank adaptation and multi-stage training, and incorporates an enhanced control mechanism to guide content and edge restoration during diffusion.
                 </p>
               </td>
             </tr>
